@@ -1,0 +1,23 @@
+COLUMNS:
+  age: int64
+  job: object
+  marital: object
+  education: object
+  default: object
+  balance: int64
+  housing: object
+  loan: object
+  contact: object
+  day: int64
+  month: object
+  duration: int64
+  campaign: int64
+  pdays: int64
+  previous: int64
+  poutcome: object
+  y: object
+
+
+TARGET_COLUMN:
+  name: y
+  
