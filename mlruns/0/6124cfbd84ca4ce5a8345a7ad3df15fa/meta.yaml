@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Real%20Project%20Implementation/Bank-Term-Deposit-Prediction/mlruns/0/6124cfbd84ca4ce5a8345a7ad3df15fa/artifacts
+end_time: 1709627858790
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6124cfbd84ca4ce5a8345a7ad3df15fa
+run_name: nimble-hawk-655
+run_uuid: 6124cfbd84ca4ce5a8345a7ad3df15fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709627855395
+status: 3
+tags: []
+user_id: Home
