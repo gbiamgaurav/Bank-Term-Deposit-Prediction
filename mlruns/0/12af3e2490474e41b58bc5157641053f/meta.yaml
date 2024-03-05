@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Real%20Project%20Implementation/Bank-Term-Deposit-Prediction/mlruns/0/12af3e2490474e41b58bc5157641053f/artifacts
+end_time: 1709627658832
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12af3e2490474e41b58bc5157641053f
+run_name: glamorous-calf-404
+run_uuid: 12af3e2490474e41b58bc5157641053f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709627647884
+status: 3
+tags: []
+user_id: Home
