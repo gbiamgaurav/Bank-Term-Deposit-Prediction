@@ -11,3 +11,10 @@
 7. update the pipeline
 8. update the main.py
 9. update the app.py
+
+
+## DVC Commands to run
+
+`dvc init` 
+
+`dvc repro` 
