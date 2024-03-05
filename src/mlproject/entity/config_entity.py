@@ -25,4 +25,16 @@ class DataTransformationConfig:
     data_path: Path
     preprocessor_path: Path
 
+
+@dataclass(frozen=True)
+class ModelTrainerConfig:
+    root_dir: Path
+    train_data_path: Path
+    test_data_path: Path
+    model_name: str
+    n_estimators: int
+    max_depth: int 
+    max_leaf_nodes: int
+    criterion: str
+    target_column: str
     

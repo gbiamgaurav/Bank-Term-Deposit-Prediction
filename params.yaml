@@ -1,1 +1,6 @@
-key: value
+
+ExtraTreesClassifier:
+  n_estimators: 77
+  max_depth: 15
+  max_leaf_nodes: 25
+  criterion: 'entropy'
