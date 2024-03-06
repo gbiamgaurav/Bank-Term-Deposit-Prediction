@@ -60,24 +60,113 @@
 7. Run the following commands 
 
 ```bash
- - sudo apt update
- - sudo apt-get update
- - sudo apt upgrade -y
- - sudo apt install git curl unzip tar make sudo vim wget -y
+sudo apt update
+```
 
- - git clone "Your-repository"
+```bash
+ sudo apt-get update
+ ```
 
- # cd your repository
- # ls - check the directory
- 
- - sudo apt install python3-pip
- - pip3 install -r requirements.txt
+ ```bash
+sudo apt upgrade -y
+```
+
+```bash
+sudo apt install git curl unzip tar make sudo vim wget -y
+```
+
+```bash
+git clone "Your-repository"
+```
+
+# cd your repository
+# ls - check the directory
+
+```bash
+sudo apt install python3-pip
+```
+
+```bash
+pip3 install -r requirements.txt
+```
+
+```bash
+pip3 install -r requirements_new.txt
+```
    
-   # Temporary running
- - python3 -m streamlit run app.py
+# Temporary running
 
-   # Permanent running
- - nohup python3 -m streamlit run app.py 
+```bash
+python3 -m streamlit run app.py
+```
+
+# Permanent running
+
+```bash
+nohup python3 -m streamlit run app.py 
 ```
 
 
+## Docker Image
+
+```bash
+
+sudo apt-get update -y
+```
+
+```bash
+sudo apt-get upgrade
+```
+
+```bash
+curl -fsSL https://get.docker.com -o get-docker.sh
+```
+
+```bash
+sudo sh get-docker.sh
+```
+
+```bash
+sudo usermod -aG docker ubuntu
+```
+
+```bash
+newgrp docker
+```
+
+```bash
+git clone "your-project"
+```
+
+```bash
+docker build -t gauravbhattacharya29/termdepositapp: latest .
+```
+
+```bash
+docker images -a
+```
+
+```bash
+docker run -d -p 8501:8501 gauravbhattacharya29/termdepositapp
+```
+
+```bash
+docker ps
+```
+
+```bash
+docker stop container_id
+```
+
+
+## SECRETS to setup
+
+AWS_ACCESS_KEY_ID = 
+
+AWS_SECRET_ACCESS_KEY = 
+
+AWS_REGION = 
+
+AWS_ECR_LOGIN_URI = 
+
+ECR_REPOSITORY_NAME = 
