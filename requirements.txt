@@ -16,10 +16,7 @@ joblib
 types-pyYAML 
 streamlit
 imblearn
-
-
-# dev requirements -
-
+apache-airflow
 pytest==7.1.3
 tox==3.25.1
 black==22.8.0
